@@ -18,7 +18,7 @@ describe "Shake Shack", ->
 
   describe "Get shake shack line photo", ->
 
-    it "registers a respon listener", ->
+    it "registers a response listener", ->
       expect(@robot.respond).to.have.been.calledWith(/(shake|shack) cam/)
 
     it "should send a image url", ->
