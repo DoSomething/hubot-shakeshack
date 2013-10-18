@@ -1,0 +1,39 @@
+{
+  "name": "hubot-shakeshack",
+  "description": "A Hubot script that posts a photo of the Shake Shack cam",
+  "version": "1.0.0",
+  "author": "Desmond Morris <hi@desmondmorris.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "shakeshack"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DoSomething/hubot-shakeshack.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/DoSomething/hubot-shakeshack/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
