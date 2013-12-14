@@ -9,4 +9,4 @@
 
 module.exports = (robot) ->
   robot.respond /(shake|shack) cam/i, (msg) ->
-    msg.send 'http://www.shakeshack.com/camera.jpg'
+    msg.send 'http://www.shakeshack.com/camera.jpg?' + new Date().getTime()
