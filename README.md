@@ -9,3 +9,6 @@ A Hubot script that posts a photo of the Shake Shack cam
 ```
 hubot shake cam
 ```
+
+## Changelog
+1.0.1 - [Cache Bust](https://github.com/DoSomething/hubot-shakeshack/pull/1) - [slipo](https://github.com/slipo)
