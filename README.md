@@ -11,4 +11,5 @@ hubot shake cam
 ```
 
 ## Changelog
+1.0.2 - Cam URL update
 1.0.1 - [Cache Bust](https://github.com/DoSomething/hubot-shakeshack/pull/1) - [slipo](https://github.com/slipo)
